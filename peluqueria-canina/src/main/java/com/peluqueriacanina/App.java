@@ -1,13 +1,17 @@
 package com.peluqueriacanina;
 
-/**
- * Hello world!
- *
- */
+import com.peluqueriacanina.gui.Principal;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Principal princ = new Principal();
+        
+        // Hacerla visible
+        princ.setVisible(true);
+        
+        // Centrarla (opcional, ya lo pusimos en la clase)
+        princ.setLocationRelativeTo(null);
     }
 }
